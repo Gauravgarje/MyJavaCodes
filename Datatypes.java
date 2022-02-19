@@ -46,6 +46,7 @@ public class Datatypes {
     }
 }
 
+// OUTPUTS:
 
 // DEFAULT VALUES
 // Byte = 0
