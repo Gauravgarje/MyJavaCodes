@@ -9,17 +9,23 @@ public class Quadrant {
         int Y = scan.nextInt();
 
         int quadrant;
-        if(X == 0 || Y == 0)
-        {
-            System.out.println("the coordinate either lies on the axis or on origin");
-            System.exit(0);
-        }
         if (X > 0)
+        {
             quadrant = (Y > 0) ? 1 : 4;
-        else
+            System.out.println("Point lies on quadrant " + quadrant);
+        }
+        else if(X < 0)
+        {
             quadrant = (Y > 0) ? 2 : 3;
+            System.out.println("Point lies on quadrant " + quadrant);
+        }
+        else if(X == 0 && Y != 0)
+            System.out.println("Point lies on Y axis");
+        else if(X != 0 && Y == 0)
+            System.out.println("Point lies on X axis");
+        else 
+            System.out.println("Point lies on Origin");
 
-        System.out.println("The point lies on quadrant " + quadrant);
         scan.close();
     }
 }
