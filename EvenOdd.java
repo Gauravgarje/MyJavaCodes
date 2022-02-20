@@ -2,11 +2,7 @@ import java.util.Scanner;
 
 public class EvenOdd {
     public static boolean odd_even(int n) {
-        boolean r = false;
-        if (n % 2 != 0) {
-            r = true;
-        }
-        return r;
+        return (n % 2 != 0) ? true : false;
     }
 
     public static void main(String[] args) {
@@ -27,6 +23,6 @@ public class EvenOdd {
 
 // OUTPUT
 
-// Enter a number: 
+// Enter a number:
 // -25
 // Odd number
