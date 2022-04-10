@@ -1,3 +1,6 @@
+// PROGRAM DESCRIPTION: Program to show String formatting in java
+// AUTHOR: Gaurav Garje
+
 public class Formatting {
     public static void main(String[] args) {
         System.out.printf("%-10s", "Name");
