@@ -1,3 +1,6 @@
+// PROGRAM DESCRIPTION: Program to swap two numbers.  
+// AUTHOR: Gaurav Garje
+
 public class Swap {
     public static void swap(int m, int n) {
         int temp = m;
