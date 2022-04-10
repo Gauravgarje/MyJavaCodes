@@ -1,4 +1,7 @@
-import java.util.Scanner;
+
+import java.io.
+
+/*import java.util.Scanner;
 
 
 public class GCDorHCF {
@@ -40,3 +43,4 @@ public class GCDorHCF {
         scan.close();
     }
 }
+*/
